@@ -1,1 +1,2 @@
+-- Counts the records per score, biggest total first
 SELECT score, COUNT(*) AS number FROM second_table GROUP BY score ORDER BY number DESC;
