@@ -1,4 +1,4 @@
--- Lists the cities of California through a subquery
+-- LISTS THE CITIES OF CALIFORNIA THROUGH A SUBQUERY
 SELECT id, name FROM cities
 WHERE state_id = (SELECT id FROM states WHERE name = 'California')
 ORDER BY id ASC;

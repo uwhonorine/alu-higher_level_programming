@@ -1,4 +1,4 @@
--- Lists the PRIVILEGES of the MySQL accounts user_0d_1, user_0d_2
--- Host: localhost
+-- LISTS THE PRIVILEGES OF USER_0D_1 AND USER_0D_2
+-- BOTH ACCOUNTS ARE LOCAL
 SHOW GRANTS FOR 'user_0d_1'@'localhost';
 SHOW GRANTS FOR 'user_0d_2'@'localhost';

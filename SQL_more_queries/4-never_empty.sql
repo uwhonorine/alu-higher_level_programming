@@ -1,2 +1,2 @@
--- Creates the TABLE id_not_null, never fails
+-- CREATES THE TABLE ID_NOT_NULL, NEVER FAILS
 CREATE TABLE IF NOT EXISTS id_not_null (id INT DEFAULT 1, name VARCHAR(256));

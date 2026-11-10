@@ -1,2 +1,2 @@
--- Creates the TABLE unique_id, never fails
+-- CREATES THE TABLE UNIQUE_ID, NEVER FAILS
 CREATE TABLE IF NOT EXISTS unique_id (id INT DEFAULT 1 UNIQUE, name VARCHAR(256));

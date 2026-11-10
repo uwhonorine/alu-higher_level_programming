@@ -1,4 +1,4 @@
--- Creates the DATABASE hbtn_0d_2 plus the USER user_0d_2 (SELECT privilege)
+-- CREATES THE DATABASE HBTN_0D_2 PLUS THE USER USER_0D_2 (SELECT PRIVILEGE)
 CREATE DATABASE IF NOT EXISTS hbtn_0d_2;
 CREATE USER IF NOT EXISTS 'user_0d_2'@'localhost' IDENTIFIED BY 'user_0d_2_pwd';
 ALTER USER 'user_0d_2'@'localhost' IDENTIFIED BY 'user_0d_2_pwd';

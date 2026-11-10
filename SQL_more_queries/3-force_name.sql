@@ -1,2 +1,2 @@
--- Creates the TABLE force_name, never fails
+-- CREATES THE TABLE FORCE_NAME, NEVER FAILS
 CREATE TABLE IF NOT EXISTS force_name (id INT, name VARCHAR(256) NOT NULL);

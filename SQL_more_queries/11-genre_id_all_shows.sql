@@ -1,4 +1,4 @@
--- Lists the shows plus genre_id (NULL means absent)
+-- LISTS THE SHOWS PLUS GENRE_ID (NULL MEANS ABSENT)
 SELECT tv_shows.title, tv_show_genres.genre_id
 FROM tv_shows
 LEFT JOIN tv_show_genres ON tv_shows.id = tv_show_genres.show_id
